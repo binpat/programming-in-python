@@ -38,6 +38,7 @@ See 04_data_analysis.py for more information on the tasks.
 # be r=0.2989, g=0.5870, b=0.1140.
 # The function should return a numpy array of type np.unit8.
 import numpy as np
+import os
 example_image = np.random.randint(0, 256, size=(50, 40, 3), dtype=np.uint8)
 
 # Your code here #
